@@ -1,0 +1,281 @@
+body {
+	margin: 0;
+	font-family: 'Roboto';
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+	background-color: #3a7dfd;
+	color: #fff;
+	padding-top: 59px; /* Внутренне пространство */
+	padding-bottom: 22px;
+}
+
+.top-nav-menu {
+	background: #ffffff;
+	list-style: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	position: relative; /* Поднимает элемент вверх, вниз, влево, вправо */
+	bottom: 45px; /* Указывает на сколько поднимать элемент */
+	border-radius: 45px; 
+	}
+
+.top-nav-menu a {
+	text-decoration: none;
+	color: #000000;
+	}
+
+li {
+	margin-right: 41px;
+}
+
+.web-developer {
+	margin-top: 102px;
+}
+
+.name-developer {
+	font-size: 48px;
+	font-weight: 700;
+	margin-top: 21px; /* Внешнее пространство */
+}
+
+.info-about-develop {
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.header-button {
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83); /* Тень */
+	border-radius: 50px;
+	background-color: #ffffff;
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 17px; /* Верхний отступ */ 
+	padding-left: 55px; /* Левый отступ */
+	padding-right: 55px; /* Правый отступ */
+	padding-bottom: 17px; /* Нижний отступ */
+	/* Сокращенно можно записать так: padding: 17px 55px 17px 55px; */
+	margin-top: 33px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.header-button:hover { /* Анимация */
+	box-shadow:none;
+}
+
+header small {
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	margin-top: 9px;
+}
+
+.header-button-block {
+	max-width: 210px;
+}
+
+
+/* Сексция портфолио */
+ 
+ .portfolio {
+ 	background-color: #dddddd;
+ 	padding-top: 44px;
+ 	padding-bottom: 71px;
+ }
+
+ .portfolio-block {
+ 	background-color: #fff;
+ 	padding-top: 29px;
+ 	padding-bottom: 41px;
+ }
+
+.portfolio-title {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #072b6f;
+	margin-bottom: 10px;
+}
+
+.portfolio-subtitle {
+	color: #7bb9ff;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.portfolio-title, .portfolio-subtitle {
+	text-align: center;
+}
+
+.portfolio-col-1 {
+	padding-left: 50px;
+}
+
+.portfolio-col-2 {
+	padding-right: 50px;
+}
+
+.portfolio-block h3 {
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.test1 {
+	display: inline-block;
+	width: 212px;
+    padding: 1px;
+    height: 100%;
+    max-height: 200px;
+}
+
+
+.test2 {
+	display: inline-block;
+	width: 212px;
+    padding: 17px;
+    height: 100%;
+    max-height: 200px;
+}
+
+.portfolio-text {
+	color: #8f8f8f;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.portfolio-block a {
+	color: #072b6f;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.bottom {
+    width: 100%;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+/* Подвал портфолио */
+
+footer {
+	background-color: #3a7dfd;
+	color: #ffffff;
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+
+.footer-author {
+font-size: 24px;
+margin-bottom: 7px;
+}
+
+.development-of-sites-turnkey {
+	font-size: 18px;
+	margin-top: 0px;
+}
+
+.social-network {
+	text-align: center;
+
+}
+
+.social-network a {
+	display: inline-block; /* Посмотреть что за значение */
+	margin-right: 13px;
+	margin-left: 13px;
+}
+
+.footer-button {
+display: inline-block;
+border: 1px solid #fff; /* Спросить в чате */
+background-color: transparent; /* Прозрачный цвет */
+color: #fff;
+font-size: 18px;
+border-radius: 50px; /*Скругление */
+padding: 12px 40px;
+-webkit-transition: 0.2s;
+-o-transition: 0.2s;
+transition: 0.2s;
+}
+
+.footer-button:hover { /* Анимация */
+	background-color: #fff;
+	color: #3a7dfd;
+}
+
+.footer-feedback {
+	margin-bottom: 13px;
+}
+
+.footer-feedback-block {
+	text-align: center;
+}
+
+@media (max-width: 1200px) {
+
+	.web-developer {
+	margin-top: 60px;
+	}
+}
+
+@media (max-width: 992px) {
+ .header-img {
+ 	display: none;
+ }
+   .web-developer {
+	margin-top: 10px;
+	}
+	.footer-autor {
+		font-size: 18px;
+	}
+	.development-of-sites-turnkey {
+		font-size: 14px;
+	}
+	.social-network a {
+		margin-left: 5px;
+		margin-right: 5px;
+
+	}
+	.social-network img {
+		width: 30px;
+	}
+	.footer-feedback-block {
+		font-size: 14px;
+		padding: 8px 35px;
+	}
+}
+
+@media (max-width: 768px) {
+	.portfolio-col-1 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.portfolio-col-2 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.footer-autor {
+		text-align: center;
+	}
+	.development-of-sites-turnkey {
+		text-align: center;
+	}
+}
